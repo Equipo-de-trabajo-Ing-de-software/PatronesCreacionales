@@ -5,7 +5,7 @@ namespace PatronesCreacionale.AbstractFactory.ConcreteClasses
     {
         public void Render()
         {
-            Console.WriteLine("Stakeholder creado Correctamente");
+            Console.WriteLine("Cliente Stakeholder creado Correctamente");
         }
     }
 }
