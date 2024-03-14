@@ -2,7 +2,7 @@
 
 namespace Prototype
 {
-    internal class Proveedor : Operaciones
+    internal class Proveedor : Data
     {
         public Proveedor()
         {

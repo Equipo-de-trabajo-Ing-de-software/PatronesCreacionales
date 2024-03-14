@@ -1,7 +1,7 @@
 ﻿
 namespace Prototype
 {
-    public abstract class Operaciones : ICloneable
+    public abstract class Data : ICloneable
     {
     
         public string Name { get; set; }

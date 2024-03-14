@@ -2,7 +2,7 @@
 
 namespace Prototype
 {
-    internal class Stakeholder : Operaciones
+    internal class Stakeholder : Data
     {
         public Stakeholder()
         {
