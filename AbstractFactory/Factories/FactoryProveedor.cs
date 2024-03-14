@@ -4,7 +4,7 @@
 
 namespace PatronesCreacionale.AbstractFactory.Factories
 {
-    public class FactoryProveedor : IMaiFactory
+    public class FactoryProveedor : IMainFactory
     {
         public IProveedor CreateProveedor()
         {

@@ -2,7 +2,7 @@
 
 namespace Prototype
 {
-    internal class Stakeholder : Data
+    public class Stakeholder : Data
     {
         public Stakeholder()
         {
@@ -12,7 +12,7 @@ namespace Prototype
         }
         public override void Draw()
         {
-            Console.WriteLine($"Datos del Cliente: \n  Nombre: {Name} , \n Telefono: {Phone}, \n Correo: {Email}.");
+            Console.WriteLine($"Datos del Cliente: \n  Nombre: {Name}, \n Teléfono : {Phone}, \n Correo: {Email}.");
         }
     }
 }

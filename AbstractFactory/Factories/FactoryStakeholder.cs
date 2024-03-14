@@ -4,7 +4,7 @@ using PatronesCreacionale.AbstractFactory.ConcreteClasses;
 
 namespace PatronesCreacionale.AbstractFactory.Factories
 {
-    public class FactoryStakeholder : IMaiFactory
+    public class FactoryStakeholder : IMainFactory
     {
         public IProveedor CreateProveedor()
         {

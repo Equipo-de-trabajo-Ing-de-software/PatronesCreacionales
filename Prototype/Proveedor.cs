@@ -2,7 +2,7 @@
 
 namespace Prototype
 {
-    internal class Proveedor : Data
+    public class Proveedor : Data
     {
         public Proveedor()
         {
@@ -12,7 +12,7 @@ namespace Prototype
         }
         public override void Draw()
         {
-            Console.WriteLine($"Datos de la Empresa:  \n  Nombre: {Name} , \n Telefono: {Phone}, \n Correo: {Email}.");
+            Console.WriteLine($"Datos de la Empresa:  \n  Nombre: {Name}, \n Teléfono: {Phone}, \n Correo: {Email}.");
         }
     }
 }
